@@ -1,0 +1,66 @@
+.weather-container {
+  display: flex;
+  flex-direction: column;
+
+  .MuiCircularProgress-colorPrimary{
+    margin: auto;
+  }
+
+  .MuiFormControl-root {
+    width: 100%;
+    margin: 20px 0
+  }
+}
+
+.location-box .location {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.location-box .date {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 25px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 10px 25px;
+  color: #FFF;
+  font-size: 80px;
+  font-weight: 400;
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.app{
+  margin: auto;
+  width: 420px;
+  height: 380px;
+  background-color: steelblue;
+  box-shadow: 5px 5px rgba(78, 88, 93, 0.2);
+  border-radius: 10px;
+}
+
+
+.weather-box .weather {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
